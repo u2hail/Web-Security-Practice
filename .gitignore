@@ -7,9 +7,9 @@
 # 保留 .gitignore
 !.gitignore
 
-# 上传 images 文件夹
-!images/
-!images/**
+# 上传 image 文件夹
+!image/
+!image/**
 
 # 上传项目
 !WEb安全技术实践与漏洞复现/
