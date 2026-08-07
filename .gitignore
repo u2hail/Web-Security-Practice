@@ -1,13 +1,16 @@
-# 默认忽略所有内容
+# 忽略所有文件
 *
 
-# 保留 gitignore 自身
+# 允许进入目录
+!*/
+
+# 保留 .gitignore
 !.gitignore
 
-# 上传 image 文件夹
-!image/
-!image/**
+# 上传 images 文件夹
+!images/
+!images/**
 
-# 上传这个项目
+# 上传项目
 !WEb安全技术实践与漏洞复现/
 !WEb安全技术实践与漏洞复现/**
